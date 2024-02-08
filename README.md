@@ -6,6 +6,14 @@
 - `git commit` - создать слепок текущего состояния репозитория
   - `git commit -m "message"` - добавить сразу сообщение к слепку
 - `git push` - перенести текущую версию проекта в удаленный репозиторий
-- `git branch` - показать текущую ветку
+- `git branch` - показать доступные локальные ветки
   - `git branch -a` - показать все ветки
-- `git checkout branch/name` - перенестись на другую ветку
+
+## git checkout
+
+Команда перемещения. Перемещаться можно между коммитами, ветками и т.д.
+- `git checkout [hash] [branch/name]` - перемещение на определенный коммит, ветку
+- `git checkout [hash] -- path/to/file` - перенос опредленной версии файла в текущую ветку
+- `git checkout -b branch/name` - создание новой ветки и переход на нее
+- `git checkout -b branch/based/on/source branch/source ` - создание новой ветки с названием `branch/based/on/source` из ветки `branch/source`
+
