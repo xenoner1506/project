@@ -18,6 +18,7 @@
 - `git branch -D branch/to-be-deleted-locally` - удаление локальной ветки с названием `branch/to-be-deleted-locally`
 - `git push origin --delete branch/to-be-deleted-remotely` - удаление веткив удаленном репозитории с названием `branch/to-be-deleted-remotely`
 
-## Перенос коммитов
+## Слияние веток
 
-- `git cherry-pick [hash][..hash]` - копия коммитов с одной ветки на текущую
+- `git merge branch/source-for-merge` - слить текущую ветку с веткой `branch/source-for-merge`
+- При слиянии веток появляются конфликты. Решать их можно в ручном режиме (проходить по всем файлам и менять на нужное) или же через IDE
