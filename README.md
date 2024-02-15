@@ -18,3 +18,9 @@
 - `git branch -D branch/to-be-deleted-locally` - удаление локальной ветки с названием `branch/to-be-deleted-locally`
 - `git push origin --delete branch/to-be-deleted-remotely` - удаление веткив удаленном репозитории с названием `branch/to-be-deleted-remotely`
 
+## Rebase
+
+- `git rebase branch/name` - перенести текущую ветку на ветку `branch/name`
+- `git rebase --abort` - отменить процесс переноса
+- `git rebase --continue` - используется после решения конфликтной ситуации, продолжает процесс переноса
+- `git rebase --skip` - используется для подхвата изменений из ветки `branch/name`
