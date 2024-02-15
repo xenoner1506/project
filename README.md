@@ -18,3 +18,6 @@
 - `git branch -D branch/to-be-deleted-locally` - удаление локальной ветки с названием `branch/to-be-deleted-locally`
 - `git push origin --delete branch/to-be-deleted-remotely` - удаление веткив удаленном репозитории с названием `branch/to-be-deleted-remotely`
 
+## Перенос коммитов
+
+- `git cherry-pick [hash][..hash]` - копия коммитов с одной ветки на текущую
