@@ -1,1 +1,1 @@
-echo 'Hello, $USER'
+echo 'Hello, $USER from $HOME'
