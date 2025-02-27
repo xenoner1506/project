@@ -1,0 +1,6 @@
+[submodule "submodules/lazygit-source"]
+	path = submodules/lazygit-source
+	url = https://github.com/jesseduffield/lazygit.git
+[submodule "submodules/graph-v2-source"]
+	path = submodules/graph-v2-source
+	url = https://github.com/stdgraph/graph-v2.git
